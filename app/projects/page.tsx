@@ -123,11 +123,6 @@ export default function ProjectsPage() {
           <li key={item}>{item}</li>
         ))}
       </ul>
-      <p className="placeholder">
-        Placeholder: outcome numbers, if you have any you are willing to
-        publish. None were in the resume, the repository, or the presentation
-        script.
-      </p>
     </div>
     </PageFrame>
   );

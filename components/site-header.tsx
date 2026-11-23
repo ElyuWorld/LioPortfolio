@@ -31,6 +31,12 @@ function NavIcon({ href }: { href: string }) {
       {href === "/skills" ? (
         <path {...stroke} d="M8 5.5h11M8 12h11M8 18.5h11M4.5 5.5h.01M4.5 12h.01M4.5 18.5h.01" />
       ) : null}
+      {href === "/resume" ? (
+        <>
+          <path {...stroke} d="M7 4.5h6.2L17.5 8.8V19a1.2 1.2 0 0 1-1.2 1.2H7.7A1.2 1.2 0 0 1 6.5 19V5.7A1.2 1.2 0 0 1 7.7 4.5z" />
+          <path {...stroke} d="M13 4.7V8.6h3.9M8.6 12.2h5.2M8.6 15.4h5.2" />
+        </>
+      ) : null}
       {href === "/contact" ? (
         <>
           <rect {...stroke} x="3.5" y="5.5" width="17" height="13" rx="2" />
@@ -59,7 +65,7 @@ export function SiteHeader() {
           priority
           className="mark-logo"
         />
-        {person.shortName}
+        <span className="mark-name">{person.shortName}</span>
       </Link>
       <nav aria-label="Sections">
         <ul>
@@ -76,7 +82,7 @@ export function SiteHeader() {
                   transitionTypes={[sectionTransition(pathname, item.href)]}
                 >
                   <NavIcon href={item.href} />
-                  {item.label}
+                  <span className="nav-label">{item.label}</span>
                 </Link>
               </li>
             );

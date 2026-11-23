@@ -16,13 +16,7 @@ export default function AboutPage() {
         The resume lists BS Information Technology at Partido State University
         in Goa, Camarines Sur.
       </p>
-      <p>
-        The resume lists the degree and the school. It does not list a
-        graduation year for the degree.
-      </p>
-      <p className="placeholder">
-        Placeholder: add the graduation year, or the year you expect to finish.
-      </p>
+      <p>It does not list a graduation year for the degree.</p>
 
       <h2>Earlier schooling</h2>
       <dl className="facts">
@@ -54,10 +48,6 @@ export default function AboutPage() {
         </li>
         <li>Team leader, ROTC MEDICS Group 2.</li>
       </ul>
-      <p className="placeholder">
-        Placeholder: a short note, in your own words, about the degree or the
-        work you want next.
-      </p>
     </div>
     </PageFrame>
   );

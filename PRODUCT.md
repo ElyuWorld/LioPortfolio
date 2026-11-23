@@ -28,11 +28,11 @@ Read on a phone or a desk, in ordinary daylight, by someone deciding whether to 
 
 ## Capabilities and Constraints
 
-- Pages or sections: home, about (BSIT), projects with PsyCheck featured, skills, contact.
+- Pages or sections: home, about (BSIT), projects with PsyCheck featured, skills, a one-page resume, contact.
 - Responsive, accessible, semantic.
 - Contact may be a mailto link or a simple form. Use only an email found in the materials.
 - Public contact email, set by Lon: bhasilcordova@gmail.com. The resume also lists lbcordova870.pbox@parsu.edu.ph, which is not the address shown on the site.
-- Confirmed phone on that resume: 0963 779 3213. Home address is on the resume and is omitted from the public site.
+- Confirmed phone on that resume: 0993 849 9613. Home address is on the resume and is omitted from the public site.
 - A second address, lb.cordova04@outlook.com, appears only as the git author on PsyCheck. It is not used as the public contact.
 - Light theme only. Minimalist: lots of whitespace, restrained type, light background, no dark theme, no heavy decoration.
 - Do not commit, push, or open a pull request as part of this build.

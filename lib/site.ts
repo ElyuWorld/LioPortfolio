@@ -2,8 +2,8 @@ export const person = {
   name: "Lio Bhasil B. Cordova",
   shortName: "Lio Cordova",
   email: "bhasilcordova@gmail.com",
-  phoneDisplay: "0963 779 3213",
-  phoneTel: "+639637793213",
+  phoneDisplay: "0993 849 9613",
+  phoneTel: "+639938499613",
 } as const;
 
 export const nav = [
@@ -11,6 +11,7 @@ export const nav = [
   { href: "/about", label: "About" },
   { href: "/projects", label: "Projects" },
   { href: "/skills", label: "Skills" },
+  { href: "/resume", label: "Resume" },
   { href: "/contact", label: "Contact" },
 ] as const;
 

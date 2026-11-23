@@ -22,11 +22,11 @@ export default function SkillsPage() {
         ))}
       </ul>
 
-      <h2>From the PsyCheck repository</h2>
       <p>
-        The website package file records this stack. It is listed here as the
-        project’s tools, not as a self-rated skill inventory.
+        The lists below are tools recorded in the project package files, not a
+        self-rated skill inventory.
       </p>
+      <h2>From the PsyCheck repository</h2>
       <ul className="plain-list">
         {psycheckStack.map((item) => (
           <li key={item}>{item}</li>
@@ -35,9 +35,7 @@ export default function SkillsPage() {
 
       <h2>From the KKL repository</h2>
       <p>
-        The KKL website package file records this stack. It is listed here as
-        the project’s tools, not as a self-rated skill inventory. The site is
-        at{" "}
+        The site is at{" "}
         <a href="https://kkl-website.vercel.app">kkl-website.vercel.app</a>.
       </p>
       <ul className="plain-list">
@@ -45,9 +43,6 @@ export default function SkillsPage() {
           <li key={item}>{item}</li>
         ))}
       </ul>
-      <p className="placeholder">
-        Placeholder: tools you want named in your own words.
-      </p>
     </div>
     </PageFrame>
   );

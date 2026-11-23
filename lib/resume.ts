@@ -3,7 +3,7 @@ import { person } from "@/lib/site";
 export const resumeRole = "Junior Web Developer / Frontend Developer";
 
 export const resumeSummary =
-  "Fresh undergraduate with a Bachelor of Science in Information Technology from Partido State University, seeking a junior web developer or frontend developer role. Built and deployed PsyCheck, a web-based mental health screening and referral system for university students, and an informational website for Kooperatiba para sa Kaunlaran ng Lagonoy. Focused on responsive interfaces in React and Next.js, from registration and dashboards through a live Vercel deployment.";
+  "A 4th year student with a Bachelor of Science in Information Technology from Partido State University, seeking a junior web developer or frontend developer role. Built and deployed PsyCheck, a web-based mental health screening and referral system for university students, and an informational website for Kooperatiba para sa Kaunlaran ng Lagonoy. Focused on responsive interfaces in React and Next.js, from registration and dashboards through a live Vercel deployment.";
 
 export const resumeContact = {
   email: person.email,
